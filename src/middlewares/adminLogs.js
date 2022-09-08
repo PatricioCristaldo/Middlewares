@@ -7,7 +7,7 @@ const adminLogs = (req,res,next) => {
        return next()
     }else{
        res.render('index',{
-           texto:"No tienes los privilegios para ingresar"
+           texto:"No tienes privilegios para ingresar"
        })
     }
 }
